@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Joseph Chileshe's CBD Parking Management System project.">
+  <title>Projects | Joseph Chileshe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navigation container" aria-label="Main navigation">
+      <a class="brand" href="index.html">Joseph Chileshe</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container page-main">
+    <header class="page-intro">
+      <h1>Projects</h1>
+    </header>
+
+    <article class="project-case-study">
+      <div class="project-content">
+        <h2>1. CBD Parking Management System</h2>
+        
+        <p>The CBD Parking Management System is a full-stack digital platform designed for drivers and municipal parking officers. It streamlines the entire parking process by handling digital payments, live revenue monitoring, and automated reporting.</p>
+        
+        <p>Built to solve real-world challenges in Zambia, the system was designed to reduce payment leakage, increase parking efficiency, and simplify daily parking operations that happen simultaneously for officers on the ground.</p>
+
+        <!-- VIDEO DEMO SECTION -->
+        <section class="project-subsection" style="margin-bottom: 40px;">
+          <h3>Project Demo</h3>
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; border: 1px solid #E2E8F0; margin-top: 15px;">
+            <!-- Replace YOUR_YOUTUBE_EMBED_LINK_HERE with your actual embed link -->
+            <iframe 
+              src="YOUR_YOUTUBE_EMBED_LINK_HERE" 
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+        </section>
+
+        <section class="project-subsection" aria-labelledby="features-heading">
+          <h3 id="features-heading">Key Features</h3>
+          <ul class="simple-list">
+            <li><strong>Digital Payments:</strong> Secure mobile and cash payment processing.</li>
+            <li><strong>Live Revenue Monitoring:</strong> Real-time dashboards for administrators to track city revenue.</li>
+            <li><strong>Automated Reporting:</strong> Instant generation of daily transaction reports and digital audit trails.</li>
+            <li><strong>Dual Verification System:</strong> A built-in two-way trust system where officers can verify if a vehicle has paid via its license plate or receipt, and drivers can verify if an officer is a genuine, authorized city official.</li>
+          </ul>
+        </section>
+
+        <p><strong>Flexible Integration:</strong> Built as a standalone solution, its architecture allows it to seamlessly complement other existing solutions to enhance parking operations efficiency. It is designed to add value without requiring a complete system overhaul.</p>
+
+        <section class="project-subsection" aria-labelledby="project-stack-heading">
+          <h3 id="project-stack-heading">Tech Stack</h3>
+          <ul class="simple-list">
+            <li><strong>Frontend:</strong> Flutter</li>
+            <li><strong>Backend:</strong> FastAPI (Python)</li>
+            <li><strong>Database:</strong> PostgreSQL</li>
+          </ul>
+        </section>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 Joseph Chileshe</p>
+      <a href="contact.html">Get in touch</a>
+    </div>
+  </footer>
+</body>
+</html>
